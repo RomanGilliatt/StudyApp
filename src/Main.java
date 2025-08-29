@@ -37,14 +37,14 @@ public class Main {
         System.out.print("Enter email: ");
         String email = sc.nextLine();
         students.add(new Student(name, email));
-        System.out.println("Profile created.");
+        System.out.println("Profile created. Your student # is: " + students.size());
     }
 
     private static Student pickStudent() {
         for (int i = 0; i < students.size(); i++) {
             System.out.println((i+1) + ". " + students.get(i));
         }
-        System.out.print("Select student #: ");
+        System.out.print("Select student # (number next to names above): ");
         int idx = sc.nextInt(); sc.nextLine();
         return students.get(idx - 1);
     }
