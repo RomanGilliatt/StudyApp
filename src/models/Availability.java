@@ -1,3 +1,5 @@
+package models;
+
 public class Availability {
     private String dayOfWeek;  // e.g., "Monday"
     private String startTime;  // e.g., "15:00"

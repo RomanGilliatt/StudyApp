@@ -1,6 +1,8 @@
+package models;
+
 public class Session {
-    private Student student1;
-    private Student student2;
+    public Student student1;
+    public Student student2;
     private String dayOfWeek;
     private String timeSlot;
     private boolean confirmed;

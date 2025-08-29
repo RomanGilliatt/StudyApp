@@ -1,3 +1,5 @@
+package models;
+
 public class Course {
     private String courseCode; // e.g., "CPSC 2120"
 
