@@ -74,7 +74,7 @@ public class Main {
         List<Student> matches = matchService.findMatches(s, students);
         System.out.println("Matches for " + s.getName() + ":");
         for (Student m : matches) {
-            System.out.println(" - " + m.getName() + " (" + m.getCourses() + ")");
+            System.out.println(" - " + m.getName() + " (" + m.getCourses() + ")" + m.getAvailability());
         }
     }
 }
